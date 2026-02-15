@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+.env.vault
+*.pem
+
+# Build and output
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Testing and coverage
+coverage/
+.nyc_output/
+*.lcov
+
+# Optional
+.cache/
+.temp/
+tmp/
+temp/
